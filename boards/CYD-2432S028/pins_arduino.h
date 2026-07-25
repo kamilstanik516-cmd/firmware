@@ -9,13 +9,12 @@ static const uint8_t RX = 3;
 static const uint8_t SDA = 21;
 static const uint8_t SCL = 22;
 
-// ---------- KONFIGURACJA WYĹšWIETLACZA (SPI) ----------
-#define TFT_CS 10
-#define TFT_DC 9
-#define TFT_RST 8
-#define TFT_MOSI 11
-#define TFT_SCLK 12
-#define TFT_BL 14 // podĹ›wietlenie (opcjonalnie, PWM lub ON/OFF)
+#define TFT_CS 17
+#define TFT_DC 16
+#define TFT_RST 4
+#define TFT_MOSI 35
+#define TFT_SCLK 36
+#define TFT_BL -1 // podswietlenie podpiete na stale do 3.3V - nie sterujemy nim z ESP32
 
 static const uint8_t A0 = 36;
 static const uint8_t A3 = 39;
