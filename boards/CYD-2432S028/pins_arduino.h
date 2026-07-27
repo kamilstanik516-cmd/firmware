@@ -8,12 +8,12 @@ static const uint8_t RX = 3;
 
 
 
-static const uint8_t CS 17
-static const uint8_t DC 16
-static const uint8_t RST 4
-static const uint8_t MOSI 35
-static const uint8_t SCLK 36
-static const uint8_t BL -1 // podswietlenie podpiete na stale do 3.3V - nie sterujemy nim z ESP32
+static const uint8_t SS = 17
+static const uint8_t DC = 16
+static const uint8_t RST = 4
+static const uint8_t MOSI = 35
+static const uint8_t SCLK = 36
+static const uint8_t BL = -1 // podswietlenie podpiete na stale do 3.3V - nie sterujemy nim z ESP32
 
 static const uint8_t A0 = 36;
 static const uint8_t A3 = 39;
