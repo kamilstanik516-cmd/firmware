@@ -5,8 +5,6 @@
 
 static const uint8_t TX = 1;
 static const uint8_t RX = 3;
-static const uint8_t TX = 1;
-static const uint8_t RX = 3;
 
 static const uint8_t SDA = 21;
 static const uint8_t SCL = 22;
@@ -18,10 +16,7 @@ static const uint8_t DC = 16;
 static const uint8_t RST = 4;
 static const uint8_t MOSI = 35;
 static const uint8_t SCLK = 36;
-static const uint8_t BL = -1; 
-
-
-
+static const uint8_t BL = -1;
 
 static const uint8_t A0 = 36;
 static const uint8_t A3 = 39;
@@ -57,4 +52,4 @@ static const uint8_t DAC2 = 26;
 // Deepsleep
 #define DEEPSLEEP_WAKEUP_PIN 36 // Touch interrupt
 #define DEEPSLEEP_PIN_ACT LOW
-#endif /* Pins_Arduino_h */
+#endif /* Pins_Arduino_h */ 
